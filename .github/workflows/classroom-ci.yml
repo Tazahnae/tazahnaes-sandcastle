@@ -1,0 +1,29 @@
+name: classroom-ci
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r python/level1/requirements.txt
+      - run: pytest python/level1/tests -q
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: |
+          cd web/level1/tests
+          npm ci || npm install
+          npm test -s
+  bash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: chmod +x bash/level1/*.sh || true
+      - run: bash/bash_test_runner.sh
