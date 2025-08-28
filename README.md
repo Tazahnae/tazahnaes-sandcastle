@@ -34,3 +34,18 @@ Paste these in your README or PR when you’ve earned them:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r python/level1/requirements.txt
+---
+
+## ✏️ Editing in GitHub (No CLI Needed)
+
+You don’t need Linux or the terminal to complete these challenges!  
+Follow these steps to edit directly in the GitHub website:
+
+1. Open this repo on GitHub.  
+2. Navigate into `python/level1/hello_01.py` (or the exercise file you want).  
+3. Click the pencil ✏️ icon (top right) to edit the file.  
+4. Type your solution code.  
+5. Scroll down, write a short commit message, and click **Commit changes**.  
+
+✅ That’s it! Your solution is saved in GitHub.  
+The tests will run automatically, and you’ll see a green checkmark if everything passes.
