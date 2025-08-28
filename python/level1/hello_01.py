@@ -1,40 +1,58 @@
 # 🐍 Exercise 1: Say Hello
 # Welcome, STEAM Coder! 🎉
 #
-# In this first challenge you’ll write a tiny **function**.
-# A function is a reusable block of code that takes input and returns output.
+# ──────────────────────────────────────────────────────────────────────────────
+# INSTRUCTIONS
+# 1) Read the definitions below.
+# 2) Complete the task: write a function `say_hello(name)` that returns
+#       "Hello, <name>"
+#    (No exclamation mark — the tests expect exactly that.)
+# 3) Try the examples mentally, then run the tests (see “Run tests”).
 #
-# 📝 Task:
-# Write a function `say_hello(name)` that returns this exact format:
+# DEFINITIONS
+# • Function: a reusable block of code that does one job.
+# • Parameter: the input a function needs (here: `name`).
+# • Return value: the single value the function sends back.
+# • String concatenation: joining strings with `+`, e.g. "Hello, " + name
+#
+# TASK
+# Write a function `say_hello(name)` that returns exactly:
 #   "Hello, <name>"
 #
-# Examples:
+# EXAMPLES
 #   say_hello("Taz")    → "Hello, Taz"
 #   say_hello("STEAM")  → "Hello, STEAM"
 #
-# ▶️ Run tests with:
+# RUN TESTS
 #   source .venv/bin/activate
 #   pytest -q
 #
-# 💡 Hint: Use string concatenation:  "Hello, " + name
+# HINTS
+# • Use: return "Hello, " + name
+# • Don’t print — the grader checks the return value, not the screen output.
+# ──────────────────────────────────────────────────────────────────────────────
 
 def say_hello(name: str) -> str:
-    """Return 'Hello, <name>'."""
+    """Return 'Hello, <name>' exactly (no exclamation mark)."""
     return "Hello, " + name
 
 
-# 📖 Explanation (read after you solve!)
+# 📖 EXPLANATION (read after you solve!)
+# - `def say_hello(name: str)` defines a function named say_hello that takes a
+#   single parameter `name` (a string).
+# - `"Hello, " + name` builds a new string using concatenation.
+# - `return` hands that string back to the caller.
 #
-# - def say_hello(name: str) defines a function named `say_hello`
-# - `name` is a parameter (the input you pass in)
-# - `"Hello, " + name` builds a new string like "Hello, Taz"
-# - `return` sends that string back to whoever called the function
-#
-# Example walk-through:
+# Walk-through:
 #   say_hello("STEAM")
 #   → "Hello, " + "STEAM"
 #   → "Hello, STEAM"
 #
-# 🚀 Bonus Challenge:
-# - If `name` is the empty string "", return just "Hello!"
-# - Make it title case: say_hello("tazahnae") → "Hello, Tazahnae"
+# 🚀 BONUS (optional, not graded in Level 1 tests)
+# 1) Handle empty input:
+#      if name == "": return "Hello!"
+# 2) Format nicely:
+#      return "Hello, " + name.title()
+# 3) Add a second parameter (default value):
+#      def say_hello(name: str, greeting: str = "Hello") -> str:
+#          return f"{greeting}, {name}"
