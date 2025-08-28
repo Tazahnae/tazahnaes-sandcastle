@@ -1,9 +1,7 @@
 # Tazahnae’s SandCastle – Level 1 Sandbox
 
 Welcome to **STEAMforME**! 🎉  
-This sandbox was built by **Tazahnae Matthews, Program Coordinator**, for our students to explore coding in a fun, safe environment.  python3 -m venv .venv
-source .venv/bin/activate
-pip install -r python/level1/requirements.txt
+This sandbox was built by **Tazahnae Matthews, Program Coordinator**, for our students to explore coding in a fun, safe environment. 
 ---
 
 ## ✏️ Editing in GitHub (No CLI Needed)
@@ -16,6 +14,9 @@ Follow these steps to edit directly in the GitHub website:
 3. Click the pencil ✏️ icon (top right) to edit the file.  
 4. Type your solution code.  
 5. Scroll down, write a short commit message, and click **Commit changes**.  
+
+✅ That’s it! Your solution is saved in GitHub.  
+The tests will run automatically, and you’ll see a green checkmark if everything passes. 
 
 ✅ That’s it! Your solution is saved in GitHub.  
 The tests will run automatically, and you’ll see a green checkmark if everything passes.
