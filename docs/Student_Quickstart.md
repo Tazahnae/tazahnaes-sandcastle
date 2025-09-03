@@ -1,64 +1,83 @@
 # 🚀 Student Quick Start — GETTING STARTED (STEAMforME)
 
 Welcome, Steamers! 👋 This is your guide to start coding in **Tazahnae’s SandCastle**.  
-Follow these steps to complete **Level 1** and earn your badge.
+Follow these steps to complete your levels and earn your badge.
 
 ---
 
-## 1️⃣ Get Your Repo
-- If your teacher gave you a link → **click it** to open your assignment.  
-- If not, use the template:  
+## 1️⃣ Open Your Assignment
+- If your teacher gave you a **GitHub Classroom link** → click it.  
+  - This will automatically create your assignment repo.  
+- **If not, use the template:**  
   👉 <https://github.com/Tazahnae/tazahnaes-sandcastle>  
-  Click **Use this template** → name it (example: `my-sandcastle`) → **Create**.
+  - Click **Use this template**  
+  - Name it (example: `my-sandcastle`)  
+   
+
+💡 No setup needed: you don’t need to install Python on your laptop — everything runs in Codespaces.
 
 ---
 
-## 2️⃣ Open a File
-1. Go to `python/level1/hello_01.py`.  
-2. Click the ✏️ pencil (edit).  
-3. You’ll see a **TODO** inside the file.  
-4. Replace the TODO with your code.  
+## 2️⃣ Open in GitHub Codespaces
+All coding must be done in **GitHub Codespaces**.
+
+1. Go to your assignment repo on GitHub.  
+2. Click the green **Code** button.  
+3. Select **Open with Codespaces** → **Create Codespace on main**.  
+4. Wait for Codespaces to load:  
+   - **Files** → left side  
+   - **Terminal** → bottom  
+
+> If you don’t see the Terminal, click **View → Terminal**.
 
 ---
 
-## 3️⃣ Save Your Work
-- At the bottom of the page, write a short message (example: `finish hello`).  
-- Click **Commit changes**.  
-- ✅ This saves your work to GitHub.
+## 3️⃣ Use the Terminal (Start Python)
+The **Terminal** is the box at the bottom where you type commands for the computer.  
+Think of it as “talking” directly to Python.
 
----
+Start Python inside Codespaces:
+```bash
+python
+You should see:Python 3.x.x (main, ...)
+>>>
+From here you can import and run your functions.
+👉 To exit Python, type:exit()
 
-## 4️⃣ Check If You Passed
-1. Click the **Actions** tab.  
-2. Open the latest run called **Python tests**.  
-3. Look for:  
-   - ✅ → You passed!  
-   - ❌ → Something’s wrong → go back, fix, commit again.  
+🔑 Git Terms You Need to Know
+Add → tell Git which files you want to save (stage changes).
+Commit → save a snapshot of your work with a message (like a checkpoint in a game).
+Push → upload your commits from Codespaces to GitHub (send progress to the cloud).
+Pull → download the latest updates from GitHub to your Codespace.
+Actions → GitHub’s automatic checker that tests your code and shows ✅ or ❌.
+👉 In Codespaces, clicking Commit & Push performs add, commit, and push for you.
 
----
+4️⃣ Save Your Work (Commit & Push)
+When you finish editing a file:
+Write a short commit message (example: finish hello).
+Click Commit & Push.
+✅ This saves your work and sends it to GitHub.
 
-## 5️⃣ Repeat for the Other Files
-- `variables_02.py`  
-- `loops_03.py`  
-- `is_even_04.py`  
+5️⃣ Check Your Work with Actions
+On GitHub (not Codespaces), click the Actions tab.
+Find the workflow called Python tests.
+Open the latest run:
+✅ Green check → You passed!
+❌ Red X → Fix your code in Codespaces and Commit & Push again.
 
----
+6️⃣ Earn Your Badge
+Finish all required tasks in the python/level1/ folder.
+Create a Pull Request titled:
+Completed Level 1 – Python
 
-## 🔑 Git Terms (what’s happening behind the scenes)
-- **commit** → save your changes (like a checkpoint in a game).  
-- **push** → send your saved work to GitHub.  
-- **pull** → bring down the latest updates from GitHub.  
+In the PR description, paste this badge code:![Python Loops Ninja](https://img.shields.io/badge/Python-Loops%20Ninja-blue)
+It will display like this:
 
-👉 On GitHub web, you don’t type these. You just **write a commit message** and click **Commit changes**.
+Wait for your teacher’s review and final ✅
 
----
-
-## 🏅 Badge
-When all tests pass, you’ve finished Level 1! 🎉  
-Add this to your README or Pull Request:
-
-![Python Loops Ninja](https://img.shields.io/badge/Python-Loops%20Ninja-blue)
-
----
-
-Good luck, Steamers 🚀 Let’s code!
+🎉 That’s it, Steamers!
+Always open your assignment through the Classroom link (or template if needed)
+Always use Codespaces
+Always type python in the Terminal to start coding
+Always Commit & Push to save
+Always check Actions for ✅ before moving on
