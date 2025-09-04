@@ -34,14 +34,13 @@ Students can practice **Python, Web, and Bash** through simple exercises, with a
 4. Submit your Pull Request when you finish a level.
 
 ---
-
 ## 🏆 Badges
-Earn badges as you pass tests and complete tracks!  
+Earn badges as you pass tests and complete tracks!
 Paste these in your README or PR when you’ve earned them:
 
-- ![Loops Ninja](https://img.shields.io/badge/Python-Loops%20Ninja-blue)  
-- ![Web Starter](https://img.shields.io/badge/Web-Starter-green)  
-- ![Bash Basics](https://img.shields.io/badge/Bash-Basics-yellow)  
+- ![Python Loops Ninja](https://img.shields.io/badge/Python-Loops%20Ninja-blue)
+- ![Web Starter](https://img.shields.io/badge/Web-Starter-green)
+- ![Bash Basics](https://img.shields.io/badge/Bash-Basics-yellow)
 
 ---
 
