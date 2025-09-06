@@ -1,55 +1,29 @@
-# Tazahnae’s SandCastle – Level 1 Sandbox
+# Welcome STEAMers! 🌟  
 
-Welcome to **STEAMforME**! 🎉  
-This sandbox was built by **Tazahnae Matthews, Program Coordinator**, for our students to explore coding in a fun, safe environment. 
----
+Welcome to the **STEAM for Me Sandbox** 🎉  
 
-## ✏️ Editing in GitHub (No CLI Needed)
+This space was created to give students, mentors, and community partners a safe and supportive environment to **learn, build, and experiment** with technology.  
 
-You don’t need Linux or the terminal to complete these challenges!  
-Follow these steps to edit directly in the GitHub website:
+## 🌻 About STEAM for Me  
+STEAM for Me is dedicated to empowering youth through **Science, Technology, Engineering, Arts, and Math**. We believe in hands-on learning, creativity, and teamwork to prepare the next generation of innovators.  
 
-1. Open this repo on GitHub.  
-2. Navigate into `python/level1/hello_01.py` (or the exercise file you want).  
-3. Click the pencil ✏️ icon (top right) to edit the file.  
-4. Type your solution code.  
-5. Scroll down, write a short commit message, and click **Commit changes**.  
+## 🛠️ Purpose of the Sandbox  
+The sandbox is your **practice playground**. Here you can:  
+- Explore coding challenges step by step  
+- Test out new ideas without fear of breaking things  
+- Build real projects to share with your peers  
 
-✅ That’s it! Your solution is saved in GitHub.  
-The tests will run automatically, and you’ll see a green checkmark if everything passes. 
+## 💻 Get Ready to Learn!  
+We’ll be using **GitHub Codespaces** to write, run, and test our code directly in the browser — no setup needed.  
 
-✅ That’s it! Your solution is saved in GitHub.  
-The tests will run automatically, and you’ll see a green checkmark if everything passes.
-Students can practice **Python, Web, and Bash** through simple exercises, with automatic tests and badges to celebrate their progress.
+✨ Be ready to learn, make mistakes, and grow as a STEAM Coder!  
 
 ---
 
-## 🚀 How to Use
-1. Pick your track:
-   - 🐍 Python → `python/level1`
-   - 🌐 Web → `web/level1`
-   - 🐚 Bash → `bash/level1`
-2. Complete each exercise.
-3. Run tests locally (see below) or push your code and check GitHub Actions.
-4. Submit your Pull Request when you finish a level.
+## 🚀 Quick Start: Using Codespaces  
 
----
-## 🏆 Badges
-Earn badges as you pass tests and complete tracks!
-Paste these in your README or PR when you’ve earned them:
-
-- ![Python Loops Ninja](https://img.shields.io/badge/Python-Loops%20Ninja-blue)
-- ![Web Starter](https://img.shields.io/badge/Web-Starter-green)
-- ![Bash Basics](https://img.shields.io/badge/Bash-Basics-yellow)
-
----
-
-## ✅ Local Testing
-### Setup
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r python/level1/requirements.txt
----
-
-
+1. **Open the repository** using the link provided by your teacher.  
+2. Click the green **“Code”** button at the top right.  
+3. Select **“Open with Codespaces”** → **“New codespace”**.  
+4. Wait a few seconds while GitHub sets up your coding environment.  
+5. Start coding right away — try running your first Python challenge!  
