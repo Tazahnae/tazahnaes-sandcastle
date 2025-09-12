@@ -1,78 +1,69 @@
 # 🐍 Exercise 1: Say Hello
-# ────────────────────────────────────────────────
-# 📘 BEFORE YOU BEGIN:
-# Read docs/STUDENT_QUICK_START.md
-# That guide shows how to use Codespaces, the Terminal,
-# and how to save your work (Commit & Push).
+# Welcome, STEAM Coder! 🎉
 #
-# 🌟 GOAL
-# Write a function that returns:
-#   "Hello, <name>"
+# ────────────────────────────────────────────────
+# 📘 BEFORE YOU BEGIN
+# All coding is done in **GitHub Codespaces**.
+# Open this file in Codespaces: python/level1/hello_01.py
+# Complete the TODO inside the function, then follow SAVE + CHECK steps.
+#
+# 📖 DEFINITIONS
+# • Function → a reusable block of code that does one job.
+# • Parameter → the input a function needs (here: `name`).
+# • Return value → the answer your function sends back.
+# • String concatenation → joining strings with `+` (e.g., "Hello, " + name)
+# ────────────────────────────────────────────────
 #
 # 📝 TASK
-# 
 # Write a function `say_hello(name)` that returns exactly:
-#  
+#   "Hello, <name>"
+# (No exclamation mark — tests expect the exact text.)
 #
 # 📚 Example Scenario:
 # Imagine you are building a robot greeter at the front of a museum.
 # When someone types their name, the robot should greet them back:
-#   say_hello("Maya") → "Hello, Maya"#
+#   say_hello("Maya") → "Hello, Maya"
+#
+# EXAMPLES
+#   say_hello("Taz")    → "Hello, Taz"
+#   say_hello("STEAM")  → "Hello, STEAM"
 #
 # 💡 HINT
 # Use: return "Hello, " + name
 # (Don’t print — tests check the return value.)
 #
-# 📖 DEFINITIONS
-# • Function → a reusable block of code that does one job.
-# • Parameter → the input a function needs (here: `name`).
-# • Return value → the single value the function sends back.
-# • String concatenation → joining strings with `+`
-#       Example: "Hello, " + name
+# 🧪 HOW TO TEST IN CODESPACES
+# 1) Open the Terminal (bottom of Codespaces).
+# 2) Type: python
+# 3) Import your function (exactly, no leading # or spaces):
+#       from python.level1.hello_01 import say_hello
+# 4) Try it:
+#       say_hello("Taz")    → 'Hello, Taz'
+#       say_hello("STEAM")  → 'Hello, STEAM'
+# 5) Exit Python:  exit()  or press Ctrl + D
 # ────────────────────────────────────────────────
+# 💾 SAVE + CHECK YOUR WORK
+# 1) Go to **Source Control** (left panel).
+# 2) Write a short message (example: finish say_hello).
+# 3) Click **Commit & Push** (or **Sync Changes**).
+# 4) On GitHub, open the **Actions** tab → open *Python tests*.
+# 5) Look for:
+#       ✅ Green check → You passed!
+#       ❌ Red X → Fix code in Codespaces → Commit & Push again.
+# ────────────────────────────────────────────────
+
 
 def say_hello(name: str) -> str:
     # TODO: return "Hello, <name>"
     return "Hello, " + name
 
 
-# 🧪 HOW TO TEST IN CODESPACES
-# 1) Open the Terminal at the bottom.
-# 2) Type: python
-# 3) Import your function:
-#       from python.level1.hello_01 import say_hello
-# 4) Call it:
-#       say_hello("Taz")   → 'Hello, Taz'
-#       say_hello("STEAM") → 'Hello, STEAM'
-# 5) Exit Python with: exit()
-
-
-# 📖 EXPLANATION OF THE CODE
+# 📖 EXPLANATION (read after you solve)
+# 1) def say_hello(name: str) -> str:
+#    • defines a function named say_hello that takes a string called `name`
+#    • -> str means it returns a string
+# 2) return "Hello, " + name
+#    • builds the exact message and returns it (no printing)
 #
-# 1. def say_hello(name: str) -> str:
-#    • `def` means we are defining a function.
-#    • `say_hello` is the function’s name.
-#    • `(name: str)` means the function takes one input called `name` (a string).
-#    • `-> str` tells us the function will return a string.
-#
-# 2. return "Hello, " + name
-#    • `"Hello, "` is a string.
-#    • `+ name` joins the input name to that string.
-#    • Example: if name = "Taz", then "Hello, " + "Taz" → "Hello, Taz"
-#    • `return` sends this final string back to whoever called the function.
-#
-# Example Walk-through:
-#   say_hello("STEAM")
-#   → "Hello, " + "STEAM"
-#   → "Hello, STEAM"
-#
-# 🎉 That’s it! You just wrote your first Python function.
-#
-# 🚀 BONUS (Optional)
-# 1) Handle empty input:
-#       if name == "": return "Hello!"
-# 2) Format nicely:
-#       return "Hello, " + name.title()
-# 3) Add a second parameter:
-#       def say_hello(name: str, greeting: str = "Hello") -> str:
-#           return f"{greeting}, {name}"
+# Example:
+#   say_hello("STEAM") → "Hello, STEAM"
