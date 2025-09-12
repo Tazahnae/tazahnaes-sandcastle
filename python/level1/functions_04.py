@@ -1,44 +1,56 @@
-# 🐍 Exercise 4: Functions & Logic (Even Numbers)
-# You made it this far STEAMER — nice! ✨
+# 🔢 Exercise 4: Is Even?
+# You got this, STEAM Coder! 🙌
 #
-# In this challenge you’ll combine **functions** with a bit of **logic**.
-# Even numbers are divisible by 2 (no remainder).
+# ────────────────────────────────────────────────
+# 📘 BEFORE YOU BEGIN
+# All coding is done in **GitHub Codespaces**.
+# Open this file in Codespaces: python/level1/is_even_04.py
+# Complete the TODO, then follow SAVE + CHECK steps.
 #
-# # 📝 TASK
-# Write a function `combine(a, b)` that returns the sum of a and b.
+# 📖 DEFINITIONS
+# • Conditional (if/else) → choose different actions based on a test.
+# • Boolean → a value that is either True or False.
+# • Even number → divisible by 2 (remainder 0).
+# • Modulo operator (%) → gives the remainder of division.
+# ────────────────────────────────────────────────
+#
+# 📝 TASK
+# Write a function `is_even(n)` that returns True if n is even, else False.
 #
 # 📚 Example Scenario:
-# You are running a lemonade stand.
-# You sell 2 cups in the morning and 3 cups in the afternoon.
-# Your program should add them up:
-#   combine(2, 3) → 5
+# Imagine you’re designing a game where only players with even-numbered IDs
+# get a bonus. Your function checks:
+#   is_even(24) → True
+#   is_even(37) → False
 #
-# Examples:
-#   is_even(4)  → True
-#   is_even(3)  → False
+# EXAMPLES
+#   is_even(2)   → True
+#   is_even(3)   → False
+#   is_even(0)   → True
 #
-# ▶️ Run tests with:
-#   source .venv/bin/activate
-#   pytest -q
+# 💡 HINT
+# Use the modulo operator: n % 2 == 0
 #
-# 💡 Hint: Use the modulo operator `%` to get the remainder (n % 2)
+# 🧪 HOW TO TEST IN CODESPACES
+# 1) Open the Terminal.
+# 2) Type: python
+# 3) Import function:
+#       from python.level1.is_even_04 import is_even
+# 4) Try it:
+#       is_even(10)   → True
+#       is_even(11)   → False
+# 5) Exit Python:  exit()  or press Ctrl + D
+# ────────────────────────────────────────────────
+# 💾 SAVE + CHECK YOUR WORK
+# 1) Source Control → write a message (example: finish is_even)
+# 2) Click **Commit & Push** (or **Sync Changes**)
+# 3) On GitHub → **Actions** tab → open *Python tests*
+# 4) Look for:
+#       ✅ Green check → You passed!
+#       ❌ Red X → Fix in Codespaces → Commit & Push again
+# ────────────────────────────────────────────────
 
 def is_even(n: int) -> bool:
-    """Return True if n is even, else False."""
-    return n % 2 == 0
-
-
-# 📖 Explanation (read after you solve!)
-#
-# - `n % 2` gives the remainder after dividing n by 2
-# - Even numbers have remainder 0 → (n % 2 == 0) is True
-# - Odd numbers have remainder 1 → (n % 2 == 0) is False
-#
-# Example walk-through:
-#   n = 10 → 10 % 2 == 0 → True
-#   n =  7 →  7 % 2 == 1 → False
-#
-# 🚀 Bonus Challenge:
-# - Write `is_odd(n)` using your `is_even`:
-#     def is_odd(n): return not is_even(n)
-# - Write `only_evens(nums: list[int]) -> list[int]` that filters a list to just the even numbers.
+    """Return True if n is even, otherwise False."""
+    # TODO: return n % 2 == 0
+    return (n % 2) == 0
