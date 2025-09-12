@@ -15,15 +15,15 @@
 #
 # ────────────────────────────────────────────────
 #
-# 📝 TASK
+# # 📝 TASK
 # Write a function `combine(a, b)` that returns the sum of a and b.
 #
-# EXAMPLES
-#   combine(2, 3)   → 5
-#   combine(10, -4) → 6
+# 📚 Example Scenario:
+# You are running a lemonade stand.
+# You sell 2 cups in the morning and 3 cups in the afternoon.
+# Your program should add them up:
+#   combine(2, 3) → 5# 
 #
-# 💡 HINT
-# Use: return a + b
 #
 # 🧪 HOW TO TEST IN CODESPACES
 # 1) Open the Terminal at the bottom.
