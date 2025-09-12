@@ -8,17 +8,16 @@
 # 🌟 GOAL
 # Write a function that returns:
 #   "Hello, <name>"
+#
 # 📝 TASK
-# Write a function `combine(a, b)` that returns the sum of a and b.
+# 
+# Write a function `say_hello(name)` that returns exactly:
+#  
 #
 # 📚 Example Scenario:
-# You are running a lemonade stand.
-# You sell 2 cups in the morning and 3 cups in the afternoon.
-# Your program should add them up:
-#   combine(2, 3) → 5
-# Examples:
-#   say_hello("Taz")   → "Hello, Taz"
-#   say_hello("STEAM") → "Hello, STEAM"
+# Imagine you are building a robot greeter at the front of a museum.
+# When someone types their name, the robot should greet them back:
+#   say_hello("Maya") → "Hello, Maya"#
 #
 # 💡 HINT
 # Use: return "Hello, " + name
