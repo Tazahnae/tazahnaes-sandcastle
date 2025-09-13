@@ -1,0 +1,20 @@
+# 🌐 Web Track – Level 3: CSS Styling 🎨
+
+🔥 You’re now a web *designer*! Let’s add **colors, fonts, and style** to make your page shine.
+
+> **Work in GitHub Codespaces** (Code → Open with Codespaces).  
+> Edit, then **Commit & Push**. Check **Actions** for ✅/❌.
+
+---
+
+## 🌟 Scenario  
+Your principal is going to show your page during morning announcements. It needs to look amazing—readable, colorful, and welcoming. Think of CSS as your art kit: you control the background color, font choices, and how your titles look. Your mission is to make your site feel like **you**—bright, bold, calm, sporty, cosmic… your call!
+
+---
+
+## 📝 Task  
+👉 **Your task is to:**  
+1. Create a `style.css` file.  
+2. Change the **background color** of your page.  
+3. Style your `<h1>` (pick a new color + center it).  
+4. Link your CSS in your HTML.  
