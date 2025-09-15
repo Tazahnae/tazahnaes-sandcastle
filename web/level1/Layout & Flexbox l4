@@ -1,0 +1,23 @@
+# 🌐 Web Track – Level 4: Layout & Flexbox 📐
+
+💡 You’re designing a **two-column profile page** using **Flexbox**—a modern layout tool.
+
+> **Work in GitHub Codespaces** (Code → Open with Codespaces).  
+> Edit, then **Commit & Push**. Check **Actions** for ✅/❌.
+
+---
+
+## 🌟 Scenario  
+You’ve been asked to make a **“Student Spotlight”** page for your class site. It needs two sections side-by-side:  
+- **Left:** “About Me” (a short bio)  
+- **Right:** “My Favorites” (a short list—music, food, games, books, etc.)  
+
+Your page should look organized and balanced, like a real profile page you’d see on a school website.
+
+---
+
+## 📝 Task  
+👉 **Your task is to:**  
+1. Create a `<div>` with class `"container"`.  
+2. Add two `<div class="box">` sections (About Me, My Favorites).  
+3. Use CSS Flexbox so the boxes sit side-by-side.  
