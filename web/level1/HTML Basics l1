@@ -1,0 +1,18 @@
+# 🌐 Web Track – Level 1: HTML Basics 🌍
+
+🎉 Welcome, STEAM Coder! You made it to the NEXT LEVEL — the Web Development Track!
+
+> **Work in GitHub Codespaces** (Code → Open with Codespaces).  
+> Edit your files there, then **Commit & Push**. Check **Actions** for ✅/❌.
+
+---
+
+## 🌟 Scenario  
+You’ve been chosen to launch the **first post on your STEAM blog**! Imagine your page is the front door to your digital world—friends, family, and classmates will see this page first. Your job is to greet visitors with a big friendly title and a short message that tells them something cool about you (a hobby, a favorite food, a dream job—anything that feels *you*).
+
+---
+
+## 📝 Task  
+👉 **Your task is to:**  
+1. Add an `<h1>` heading that says: `Hello, STEAM!`  
+2. Add a `<p>` paragraph with **one fun fact about you**.  
