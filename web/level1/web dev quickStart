@@ -1,0 +1,132 @@
+# 🌐 Student Quick Start — Web Development (STEAMforME)
+
+Welcome, STEAM Coder! 🎉  
+This guide shows you **exactly** how to complete the Web Track using **GitHub Codespaces** and how to **publish your site live** with GitHub Pages.
+
+> You will work **only in GitHub Codespaces**. No downloads or installs.
+
+---
+
+## 🚀 1) Open the project in Codespaces
+
+1. Go to your classroom assignment (or the project repo).
+2. Click **Code** → **Open with Codespaces** → **New codespace**.
+3. Wait for the editor to open (looks like VS Code in the browser).
+
+---
+
+## 🗂️ 2) Project files you’ll use
+
+- `web/index.html` — Welcome page (what web dev is & what you’ll learn)
+- `web/level1.html` — Level 1: HTML Basics
+- `web/level2.html` — Level 2: Links & Images
+- `web/level3.html` — Level 3: CSS Styling
+- `web/level4.html` — Level 4: Layout & Flexbox
+- `web/level5.html` — Level 5: Final Project — Personal Web Page
+- `web/style.css` — Your CSS file (Level 3+)
+
+Each level file has **instructions at the top** in `<!-- comments -->` and **TODO spots** to fill in.
+
+---
+
+## 💻 3) How to edit & preview pages
+
+### Edit
+- In the **Explorer** (left side), open a file like `web/level1.html`.
+- Make your changes where you see `<!-- TODO: ... -->`.
+
+### Preview in the browser
+- Right-click the file (e.g., `web/level1.html`) → **Open with Live Preview** (or **Open Preview**).
+  - If you don’t see “Live Preview,” open the file, then click the **“Open in Browser”** icon in the tab, or use the **Ports/Preview** button in the bottom bar.
+
+> Tip: If Preview shows a blank page, make sure your HTML has `<body>...</body>` content.
+
+---
+
+## 💾 4) Save your work to GitHub (Commit & Push)
+
+1. Click **Source Control** (left sidebar).
+2. In the message box, type a short note (e.g., `finish level 2`).
+3. Click **Commit & Push** (or **Sync Changes**).
+
+### What those Git words mean
+- **Commit** = Save a snapshot of your work (like a checkpoint).
+- **Push** = Send your changes up to GitHub.
+
+---
+
+## ✅ 5) Check if you passed (Actions)
+
+1. On the **repo page** (GitHub website), click **Actions**.
+2. Open the latest run (it might be called **Web tests** or **CI**).
+3. Look for:
+   - ✅ **Green Check** = You passed!
+   - ❌ **Red X** = Fix your code, then **Commit & Push** again.
+
+> If your class doesn’t use Actions for HTML, your teacher will check your pages in the preview.
+
+---
+
+## 📚 6) Do the levels in order (1 → 5)
+
+Each level begins with a short **welcome** and a **scenario** in the file’s top comments.  
+Open the file and follow **“Your task is to…”** inside the comments.
+
+### Level 1 — `web/level1.html` (HTML Basics)
+- Add a big title using `<h1>`.
+- Add a short paragraph using `<p>`.
+- Preview → Commit & Push → Check Actions.
+
+### Level 2 — `web/level2.html` (Links & Images)
+- Add a clickable link with `<a href="...">`.
+- Add an image with `<img src="..." alt="...">`.
+- Preview → Commit & Push → Check Actions.
+
+### Level 3 — `web/level3.html` (CSS Styling)
+- Create or open `web/style.css`.
+- Change background color, font, and style your `<h1>`.
+- Link CSS in your HTML:
+  ```html
+  <link rel="stylesheet" href="style.css">\
+	Preview → Commit & Push → Check Actions.
+
+Level 4 — web/level4.html (Layout & Flexbox)
+	•	Make a two-column layout with Flexbox.
+	•	Structure:<div class="container">
+  <div class="box">About Me</div>
+  <div class="box">My Favorites</div>
+</div>
+
+CSS:.container { display: flex; gap: 16px; }
+.box { flex: 1; padding: 16px; }
+
+	•	Preview → Commit & Push → Check Actions.
+
+Level 5 — web/level5.html (Final Project — Personal Web Page)
+	•	Combine everything from Levels 1–4:
+	•	Heading + paragraph
+	•	Link + image
+	•	CSS styling
+	•	Flexbox layout
+	•	Make it yours! Add lists, sections, colors, and personality.
+	•	Preview → Commit & Push → Check Actions.
+	•	Then deploy it LIVE with GitHub Pages (see below).
+
+⸻
+
+🌍 7) Publish your site LIVE (GitHub Pages)
+
+Do this after Level 5. Ask your teacher if Pages is enabled for your class.
+
+	1.	Go to your repo on GitHub.
+	2.	Click Settings → Pages (left sidebar).
+	3.	Under Build and deployment:
+	•	Source: Deploy from a branch
+	•	Branch: main
+	•	Folder: /root (or /docs if your teacher set it up that way)
+	4.	Click Save.
+	5.	Wait a minute, refresh the page — you’ll see a Public URL to your site!
+	6.	Put your final page at the root with filename index.html (or update Pages to point to web/ if your teacher prefers).
+	•	Easiest path: copy your finished web/level5.html to index.html at the repo root.
+
+Share your URL with your teacher/class! 🎉
