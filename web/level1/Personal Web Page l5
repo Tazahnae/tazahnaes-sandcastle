@@ -1,0 +1,30 @@
+<!-- 🌐 Web Track – Level 5: Final Project – Personal Web Page
+🏆 FINAL LEVEL! You’ve made it to the end of the Web Development Track.
+
+📘 Scenario
+You are now a web developer! This is your chance to design a personal web page 
+that represents YOU. At this level you will also deploy your page LIVE 
+using GitHub Pages so anyone can see it.
+
+📝 Your task is to:
+✅ Combine everything from Levels 1–4:
+   - A heading and paragraph (Level 1)
+   - A link + image (Level 2)
+   - CSS styles (Level 3)
+   - Flexbox layout (Level 4)
+✅ Add your own creative touch — lists, colors, more sections!
+
+👉 Check docs/Student_Quickstart_Web.md for step-by-step instructions 
+on Codespaces, Commit & Push, Actions, and deploying with GitHub Pages.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- TODO: Build your personal web page here -->
+</body>
+</html>
