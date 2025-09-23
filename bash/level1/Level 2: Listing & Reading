@@ -1,0 +1,20 @@
+<!-- 🐚 Bash Track – Level 2: Listing & Reading
+🎉 Great job making your first folder and file!
+
+📘 Scenario
+You’ve added files, but now you need to check what’s inside.
+
+📝 Your task is to:
+1. List all files in the projects folder
+2. Show what’s inside ideas.txt
+3. Add a second idea into the file without erasing the first
+
+👉 Work in Codespaces.
+Open the Terminal and run: bash bash/level2.sh
+Then Commit & Push, and check Actions.
+
+💡 Commands to learn:
+- ls → list files
+- cat → read file contents
+- echo "text" >> file → add text without erasing
+-->
