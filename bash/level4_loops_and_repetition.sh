@@ -1,19 +1,28 @@
-<!-- 🐚 Bash Track – Level 4: Loops & Repetition
-🎉 Let’s make Bash do the hard work for you!
+#!/usr/bin/env bash
+# 🐚 Bash – Level 4: Loops & Repetition
+# 🎉 Automate like a real engineer!
+#
+# 📘 Scenario
+# You’re writing a daily STEAM log for 5 days. Use a loop to make the files fast.
+#
+# 📝 Your task is to:
+#   1) Create files in projects/: day1.txt … day5.txt
+#   2) Put this inside each file:  STEAM Log Day X  (replace X with 1–5)
+#
+# 👉 Run:
+#     bash bash/level4_loops_and_repetition.sh
+#    Then Commit & Push, and check Actions for ✅/❌
+#
+# ℹ️ Why this line?
+# set -e  → “Stop the script if something goes wrong.” (especially helpful in loops)
 
-📘 Scenario
-Instead of making files one by one, you’ll use a loop to create many at once.
+set -e
 
-📝 Your task is to:
-1. In the projects folder, use a loop to make 5 files:
-   day1.txt, day2.txt, day3.txt, day4.txt, day5.txt
-2. Each file should contain:
-   STEAM Log Day X (replace X with the day number)
+mkdir -p projects
 
-👉 Work in Codespaces.
-Open the Terminal and run: bash bash/level4.sh
-Then Commit & Push, and check Actions.
+for i in 1 2 3 4 5; do
+  echo "STEAM Log Day $i" > "projects/day${i}.txt"
+  echo "🗒️  Wrote projects/day${i}.txt"
+done
 
-💡 Command to learn:
-- for loop in Bash
--->
+echo "✅ Created day1.txt … day5.txt with your log text."
