@@ -1,132 +1,85 @@
-# 🌐 Student Quick Start — Web Development (STEAMforME)
+# 🚀 Web Sandbox — Quick Reference & How-To 
 
-Welcome, STEAM Coder! 🎉  
-This guide shows you **exactly** how to complete the Web Track using **GitHub Codespaces** and how to **publish your site live** with GitHub Pages.
+This page is your **one-stop guide** for working in **GitHub Codespaces**, using **Git**, and completing **Levels 01–05**. Keep it open while you build.
 
-> You will work **only in GitHub Codespaces**. No downloads or installs.
 
----
+## 1) Open in GitHub Codespaces (No Installs)
 
-## 🚀 1) Open the project in Codespaces
+1. Go to your repo on GitHub (e.g., `https://github.com/Tazahnae/tazahnaes-sandcastle`).
+2. Click **Code → Open with Codespaces → New codespace**.
+3. In the left sidebar, open: 🚀 Web Sandbox Quick Start — Level 1: Build Your Digital World
 
-1. Go to your classroom assignment (or the project repo).
-2. Click **Code** → **Open with Codespaces** → **New codespace**.
-3. Wait for the editor to open (looks like VS Code in the browser).
-
----
-
-## 🗂️ 2) Project files you’ll use
-
-- `web/index.html` — Welcome page (what web dev is & what you’ll learn)
-- `web/level1.html` — Level 1: HTML Basics
-- `web/level2.html` — Level 2: Links & Images
-- `web/level3.html` — Level 3: CSS Styling
-- `web/level4.html` — Level 4: Layout & Flexbox
-- `web/level5.html` — Level 5: Final Project — Personal Web Page
-- `web/style.css` — Your CSS file (Level 3+)
-
-Each level file has **instructions at the top** in `<!-- comments -->` and **TODO spots** to fill in.
+Welcome to the **Digital City** — a five-part adventure where you’ll design your own online world.  
+Each level is a mission that builds on the last. By Level 5, you’ll have a complete personal webpage you can publish with **GitHub Pages**.
 
 ---
 
-## 💻 3) How to edit & preview pages
+## 🧭 Level Overview
 
-### Edit
-- In the **Explorer** (left side), open a file like `web/level1.html`.
-- Make your changes where you see `<!-- TODO: ... -->`.
-
-### Preview in the browser
-- Right-click the file (e.g., `web/level1.html`) → **Open with Live Preview** (or **Open Preview**).
-  - If you don’t see “Live Preview,” open the file, then click the **“Open in Browser”** icon in the tab, or use the **Ports/Preview** button in the bottom bar.
-
-> Tip: If Preview shows a blank page, make sure your HTML has `<body>...</body>` content.
+| Level | Zone Name | Focus | Mission |
+|-------|------------|--------|----------|
+| 01 | 🧱 Foundation Zone | HTML Basics | Build your first structure |
+| 02 | 🖼️ Gallery Street | Links & Images | Connect and decorate |
+| 03 | 🎨 Design District | CSS Styling | Add color and personality |
+| 04 | 🧩 Grid Gardens | Layout & Flexbox | Arrange and align content |
+| 05 | 🏡 The Grand Opening | Personal Web Page | Launch your digital home |
 
 ---
-
-## 💾 4) Save your work to GitHub (Commit & Push)
-
-1. Click **Source Control** (left sidebar).
-2. In the message box, type a short note (e.g., `finish level 2`).
-3. Click **Commit & Push** (or **Sync Changes**).
-
-### What those Git words mean
-- **Commit** = Save a snapshot of your work (like a checkpoint).
-- **Push** = Send your changes up to GitHub.
-
 ---
 
-## ✅ 5) Check if you passed (Actions)
+# 🧰 Git & GitHub Reference — How to Save, Commit, and Check Actions
 
-1. On the **repo page** (GitHub website), click **Actions**.
-2. Open the latest run (it might be called **Web tests** or **CI**).
-3. Look for:
-   - ✅ **Green Check** = You passed!
-   - ❌ **Red X** = Fix your code, then **Commit & Push** again.
+Git helps you **track your work** and **save versions** of your project as you build.  
+GitHub is where those versions live in the cloud — like Google Drive for code.
 
-> If your class doesn’t use Actions for HTML, your teacher will check your pages in the preview.
+When you finish a level or task, you’ll use these core commands: 
+🧠 Summary — The Git Save Flow
+1 git add .Stage your changes
+2 git commit -m "message"Save your changes locally
+3 git push - Upload your work to GitHub
+4 (optional) git pull Download latest version
+5 (check) git status See what’s changed
+✅ Viewing GitHub “Actions” (Checking if Your Work Runs Correctly)
 
----
+GitHub Actions automatically checks your code when you push.
+It helps confirm if your pages, structure, or scripts are working correctly.
 
-## 📚 6) Do the levels in order (1 → 5)
+To open Actions:
+	1.	Go to your GitHub repository page.
+	2.	Click the “Actions” tab at the top (next to “Code,” “Issues,” “Pull requests”).
+	3.	You’ll see a list of recent runs.
 
-Each level begins with a short **welcome** and a **scenario** in the file’s top comments.  
-Open the file and follow **“Your task is to…”** inside the comments.
+🟢 Green Check = Passed → Your code ran successfully.
+🔴 Red X = Failed → There’s an error. Click the run to see details.
 
-### Level 1 — `web/level1.html` (HTML Basics)
-- Add a big title using `<h1>`.
-- Add a short paragraph using `<p>`.
-- Preview → Commit & Push → Check Actions.
+Inside the Actions page:
+	•	Each workflow is like a test run.
+	•	You can click on any failed run to see:
+	•	Which file failed
+	•	The line or command that caused the error
 
-### Level 2 — `web/level2.html` (Links & Images)
-- Add a clickable link with `<a href="...">`.
-- Add an image with `<img src="..." alt="...">`.
-- Preview → Commit & Push → Check Actions.
+If your workflow fails:
+	•	Double-check that your folder and file names match the assignment.
+	•	Make sure every folder has an index.html and proper capitalization.
+	•	Commit & push again after fixing.
+🧩 Example: Full Workflow
 
-### Level 3 — `web/level3.html` (CSS Styling)
-- Create or open `web/style.css`.
-- Change background color, font, and style your `<h1>`.
-- Link CSS in your HTML:
-  ```html
-  <link rel="stylesheet" href="style.css">\
-	Preview → Commit & Push → Check Actions.
+Let’s say you finished Level 2 (Links & Images):
+In Codespaces: git add .
+git commit -m "Level1: finished 02 Links and Images (added gallery + links)"
+git push
 
-Level 4 — web/level4.html (Layout & Flexbox)
-	•	Make a two-column layout with Flexbox.
-	•	Structure:<div class="container">
-  <div class="box">About Me</div>
-  <div class="box">My Favorites</div>
-</div>
+In GitHub:
+	1.	Go to your repo → Actions tab
+	2.	Confirm your commit shows a green checkmark
+	3.	Click on it if you want to see the details of your successful build
 
-CSS:.container { display: flex; gap: 16px; }
-.box { flex: 1; padding: 16px; }
-
-	•	Preview → Commit & Push → Check Actions.
-
-Level 5 — web/level5.html (Final Project — Personal Web Page)
-	•	Combine everything from Levels 1–4:
-	•	Heading + paragraph
-	•	Link + image
-	•	CSS styling
-	•	Flexbox layout
-	•	Make it yours! Add lists, sections, colors, and personality.
-	•	Preview → Commit & Push → Check Actions.
-	•	Then deploy it LIVE with GitHub Pages (see below).
-
-⸻
-
-🌍 7) Publish your site LIVE (GitHub Pages)
-
-Do this after Level 5. Ask your teacher if Pages is enabled for your class.
-
-	1.	Go to your repo on GitHub.
-	2.	Click Settings → Pages (left sidebar).
-	3.	Under Build and deployment:
-	•	Source: Deploy from a branch
-	•	Branch: main
-	•	Folder: /root (or /docs if your teacher set it up that way)
-	4.	Click Save.
-	5.	Wait a minute, refresh the page — you’ll see a Public URL to your site!
-	6.	Put your final page at the root with filename index.html (or update Pages to point to web/ if your teacher prefers).
-	•	Easiest path: copy your finished web/level5.html to index.html at the repo root.
-
-Share your URL with your teacher/class! 🎉
+⚡ Bonus Commands
+Command              What It Does
+clear                Clears your terminal window
+ls                   Lists files in your current folder
+cd foldername        Enters a folder
+cd ..                Moves up one folder
+mkdir newfolder      Creates a new folder
+touch filename.html  Creates a new file
+code filename.html   Opens a file in the editor
