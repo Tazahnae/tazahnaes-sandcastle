@@ -1,18 +1,148 @@
-# 🌐 Web Track – Level 1: HTML Basics 🌍
+# 🎨 Web Track – Level 2: Adding Color & Style 🌈
 
-🎉 Welcome, STEAM Coder! You made it to the NEXT LEVEL — the Web Development Track!
+Welcome back, **STEAM Coder!**  
+Your “About Me” page works — now let’s give it **color and personality!**  
+You’ll learn a new skill called **CSS (Cascading Style Sheets)**. CSS is what makes websites look fun, colorful, and organized.
 
-> **Work in GitHub Codespaces** (Code → Open with Codespaces).  
-> Edit your files there, then **Commit & Push**. Check **Actions** for ✅/❌.
+> 💡 **Work inside GitHub Codespaces**  
+> Use the link from your **teacher or administrator** to open your Codespace.  
+> Edit your files → **Commit & Push** → check **Actions** for ✅ or ❌.  
+> 🧭 Need help? Open your **Quick Start Guide** for Git commands and preview tips.
 
 ---
 
-## 🌟 Scenario  
-You’ve been chosen to launch the **first post on your STEAM blog**! Imagine your page is the front door to your digital world—friends, family, and classmates will see this page first. Your job is to greet visitors with a big friendly title and a short message that tells them something cool about you (a hobby, a favorite food, a dream job—anything that feels *you*).
+## 🌟 Scenario: “Bring Your Page to Life”
+Your editor at *STEAM Stories* loves your first webpage but says it looks too plain to publish.  
+They’ve asked you to **add color and style** so it matches your bright imagination.  
+You’ll pick your favorite color scheme and make your text easier to read — just like a real web designer preparing a page for readers around the world!
 
 ---
 
-## 📝 Task  
-👉 **Your task is to:**  
-1. Add an `<h1>` heading that says: `Hello, STEAM!`  
-2. Add a `<p>` paragraph with **one fun fact about you**.  
+## 📝 Task: Add Color and Font with CSS
+
+👉 **Your mission:** Link a CSS file and add a few basic styles.
+
+1. **Create and link your CSS file**
+   - In your folder `web/level2/`, create a new file called `style.css`.
+   - Open your `index.html` and inside the `<head>` section add:
+     ```html
+     <link rel="stylesheet" href="style.css">
+     ```
+   > 🧠 *Definition:* `<link rel="stylesheet">` tells your page to use your style rules from another file.
+
+2. **Set a background color**
+   In `style.css`, type:
+   ```css
+   body {
+     background-color: lightblue;
+   }
+Perfect — that’s an excellent call, TaZahnae 🌻.
+
+You’re right — since these are first-time coders (6th–8th grade), we want Level 2 to:
+	•	introduce CSS gently,
+	•	keep it under 4–5 simple edits,
+	•	still feel exciting and meaningful,
+	•	build confidence, not confusion.
+
+Below is the simplified & age-appropriate version of Level 2 that flows naturally from Level 1 (“About Me”) without overwhelming them.
+It introduces only three new concepts: linking CSS, changing colors, and adjusting fonts.
+
+⸻
+
+
+# 🎨 Web Track – Level 2: Adding Color & Style 🌈
+
+Welcome back, **STEAM Coder!**  
+Your “About Me” page works — now let’s give it **color and personality!**  
+You’ll learn a new skill called **CSS (Cascading Style Sheets)**. CSS is what makes websites look fun, colorful, and organized.
+
+> 💡 **Work inside GitHub Codespaces**  
+> Use the link from your **teacher or administrator** to open your Codespace.  
+> Edit your files → **Commit & Push** → check **Actions** for ✅ or ❌.  
+> 🧭 Need help? Open your **Quick Start Guide** for Git commands and preview tips.
+
+---
+
+## 🌟 Scenario: “Bring Your Page to Life”
+Your editor at *STEAM Stories* loves your first webpage but says it looks too plain to publish.  
+They’ve asked you to **add color and style** so it matches your bright imagination.  
+You’ll pick your favorite color scheme and make your text easier to read — just like a real web designer preparing a page for readers around the world!
+
+---
+
+## 📝 Task: Add Color and Font with CSS
+
+👉 **Your mission:** Link a CSS file and add a few basic styles.
+
+1. **Create and link your CSS file**
+   - In your folder `web/level2/`, create a new file called `style.css`.
+   - Open your `index.html` and inside the `<head>` section add:
+     ```html
+     <link rel="stylesheet" href="style.css">
+     ```
+   > 🧠 *Definition:* `<link rel="stylesheet">` tells your page to use your style rules from another file.
+
+2. **Set a background color**
+   In `style.css`, type:
+   ```css
+   body {
+     background-color: lightblue;
+   }
+
+	3.	Change your text color and font
+
+h1 {
+  color: darkblue;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  color: navy;
+  font-size: 18px;
+}
+
+
+	4.	Preview your page
+	•	Click the 🌐 Preview icon or right-click index.html → Open Preview
+	•	Try changing lightblue to another color like lavender, mintcream, or peachpuff — experiment!
+	5.	Save & Push your work
+
+git add .
+git commit -m "level2: added color and font style"
+git push
+
+Then check your Actions tab — ✅ means success!
+
+⸻
+
+🧠 Key Terms
+
+Term	Meaning
+CSS	The language that controls colors, fonts, and design.
+Property	What you want to change (like color or font-size).
+Value	How you want it to change (like blue or 20px).
+Stylesheet	A separate file (style.css) that holds your design rules.
+Commit / Push / Actions	Save, upload, and check your code on GitHub.
+
+
+⸻
+
+✨ Bonus Challenge
+	•	Try a different background color.
+	•	Make your name a different color from the rest of the text.
+	•	Ask a classmate what color theme fits your personality best!
+
+⸻
+
+🎉 Mission Complete!
+
+You just turned your simple webpage into a colorful profile that reflects who you are!
+Share a screenshot with #SteamForMeWeb — you’re officially a designer in training.
+
+⸻
+
+🔜 Next Level
+
+In Level 3, you’ll learn to add pictures and links so visitors can explore your world.
+
+---
