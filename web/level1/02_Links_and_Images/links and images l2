@@ -36,58 +36,6 @@ You’ll pick your favorite color scheme and make your text easier to read — j
    body {
      background-color: lightblue;
    }
-Perfect — that’s an excellent call, TaZahnae 🌻.
-
-You’re right — since these are first-time coders (6th–8th grade), we want Level 2 to:
-	•	introduce CSS gently,
-	•	keep it under 4–5 simple edits,
-	•	still feel exciting and meaningful,
-	•	build confidence, not confusion.
-
-Below is the simplified & age-appropriate version of Level 2 that flows naturally from Level 1 (“About Me”) without overwhelming them.
-It introduces only three new concepts: linking CSS, changing colors, and adjusting fonts.
-
-⸻
-
-
-# 🎨 Web Track – Level 2: Adding Color & Style 🌈
-
-Welcome back, **STEAM Coder!**  
-Your “About Me” page works — now let’s give it **color and personality!**  
-You’ll learn a new skill called **CSS (Cascading Style Sheets)**. CSS is what makes websites look fun, colorful, and organized.
-
-> 💡 **Work inside GitHub Codespaces**  
-> Use the link from your **teacher or administrator** to open your Codespace.  
-> Edit your files → **Commit & Push** → check **Actions** for ✅ or ❌.  
-> 🧭 Need help? Open your **Quick Start Guide** for Git commands and preview tips.
-
----
-
-## 🌟 Scenario: “Bring Your Page to Life”
-Your editor at *STEAM Stories* loves your first webpage but says it looks too plain to publish.  
-They’ve asked you to **add color and style** so it matches your bright imagination.  
-You’ll pick your favorite color scheme and make your text easier to read — just like a real web designer preparing a page for readers around the world!
-
----
-
-## 📝 Task: Add Color and Font with CSS
-
-👉 **Your mission:** Link a CSS file and add a few basic styles.
-
-1. **Create and link your CSS file**
-   - In your folder `web/level2/`, create a new file called `style.css`.
-   - Open your `index.html` and inside the `<head>` section add:
-     ```html
-     <link rel="stylesheet" href="style.css">
-     ```
-   > 🧠 *Definition:* `<link rel="stylesheet">` tells your page to use your style rules from another file.
-
-2. **Set a background color**
-   In `style.css`, type:
-   ```css
-   body {
-     background-color: lightblue;
-   }
 
 	3.	Change your text color and font
 
