@@ -1,18 +1,121 @@
 # 🌐 Web Track – Level 1: HTML Basics 🌍
 
-🎉 Welcome, STEAM Coder! You made it to the NEXT LEVEL — the Web Development Track!
+🎉 **Welcome, STEAM Innovator!**  
+You’re now stepping into the **Web Development Track**, where you’ll learn how to create real websites from scratch — just like professional developers do.  
 
-> **Work in GitHub Codespaces** (Code → Open with Codespaces).  
-> Edit your files there, then **Commit & Push**. Check **Actions** for ✅/❌.
-
----
-
-## 🌟 Scenario  
-You’ve been chosen to launch the **first post on your STEAM blog**! Imagine your page is the front door to your digital world—friends, family, and classmates will see this page first. Your job is to greet visitors with a big friendly title and a short message that tells them something cool about you (a hobby, a favorite food, a dream job—anything that feels *you*).
+> 💡 **You’ll be using GitHub Codespaces**  
+> Use the link from your **teacher or administrator** to open your Codespace.  
+> Edit your files → **Commit & Push** → then check your **Actions tab** for ✅ or ❌  
+> 🧭 If you get stuck, open your **Quick Start Guide** for examples of commands, definitions, and troubleshooting tips.
 
 ---
 
-## 📝 Task  
-👉 **Your task is to:**  
-1. Add an `<h1>` heading that says: `Hello, STEAM!`  
-2. Add a `<p>` paragraph with **one fun fact about you**.  
+## 🌟 Scenario: “Your Digital Introduction Page”  
+You’ve been hired as a **junior web developer** for *STEAM Stories*, a digital magazine where every young innovator shares their journey into science and creativity.  
+Your first assignment is to design a **personal introduction webpage** that tells visitors who you are, what you’re passionate about, and one big dream you have for the future.  
+
+This page will be the **foundation** of your future portfolio — it’s your space to introduce yourself to the world! 🌍  
+
+---
+
+## 📝 Task: Build Your “About Me” Web Page  
+
+👉 **Your mission:**  
+Use HTML to create a simple but professional-looking “About Me” page that includes the following elements:  
+
+1. **A Title for Your Page**  
+   - Add this inside your `<head>` section:  
+     ```html
+     <title>About Me | [Your Name]</title>
+     ```
+   > 🧠 *Definition:* The `<title>` tag gives your webpage its name — it appears at the top of the browser tab.  
+
+2. **A Main Heading (`<h1>`)**  
+   - Use your heading to introduce yourself.  
+     ```html
+     <h1>Welcome to My Web Page!</h1>
+     ```
+   - Feel free to make it more personal, like:  
+     ```html
+     <h1>Meet [Your Name] — A Future Engineer in Training</h1>
+     ```
+
+3. **A Short Introduction Paragraph (`<p>`)**  
+   - Write 3–4 sentences introducing yourself.  
+     Include your favorite subject, one hobby, and what you hope to learn in STEAM for Me.  
+     ```html
+     <p>
+       Hi! My name is [Your Name]. I’m passionate about technology and helping others learn new things. 
+       I love building creative projects and hope to become a software engineer who makes tools that help communities.
+     </p>
+     ```
+   > 🧠 *Definition:* The `<p>` tag creates a paragraph. It’s used to add body text to your page.  
+
+4. **A Fun Quote or Motto**  
+   - Add a second paragraph that includes a quote or phrase that inspires you.  
+     ```html
+     <p><em>"Learning never stops — every day is a chance to grow!"</em></p>
+     ```
+   > 🧠 *Definition:* The `<em>` tag italicizes text and helps emphasize a phrase.  
+
+5. **Add a Background Color (Optional)**  
+   - Inside your `<body>` tag, add a *style attribute* to personalize your page:  
+     ```html
+     <body style="background-color:lightyellow;">
+     ```
+
+---
+
+## 🪄 HOW TO: Step-by-Step (Quick Start Recap)
+
+1. **Open Your Codespace**  
+   - Go to your GitHub repo → Click **Code → Open with Codespaces**
+
+2. **Find Your File**  
+   - Open: `web/level1/index.html`
+
+3. **Edit Your Code**  
+   - Follow the instructions above to add your title, heading, and paragraphs.  
+
+4. **Preview Your Page**  
+   - Click the 🌐 *Preview* icon to see what your page looks like.  
+
+5. **Save and Upload Your Work**  
+   - In the terminal at the bottom, type each command and press Enter:  
+     ```bash
+     git add .
+     git commit -m "level1: created my about me page"
+     git push
+     ```
+   > 🧠 *Git Terms:*  
+   > - **git add .** adds your new work to be saved.  
+   > - **git commit** saves your progress with a message.  
+   > - **git push** sends your work to GitHub for everyone to see.  
+
+6. **Check the Actions Tab**  
+   - Go back to your GitHub repo and click the **Actions** tab at the top.  
+   - Look for a **✅ green check** — it means your code passed the check!  
+   - If you see a ❌, read the error message and fix your code using the Quick Start Guide for help.
+
+---
+
+## 🧠 Key Terms
+
+| Term | Meaning |
+|------|----------|
+| **HTML (HyperText Markup Language)** | The foundation of every website — it tells the browser what to display. |
+| **Tag** | Words inside `< >` that define elements on your page. |
+| **Element** | The full code block, like `<p>Hello!</p>`. |
+| **Attribute** | Adds extra instructions inside a tag (for example, color or size). |
+| **Commit** | Saves your work in Git. |
+| **Push** | Uploads your work to GitHub. |
+| **Actions** | A GitHub feature that checks your code automatically. |
+
+---
+
+## ✨ Bonus Challenge
+Want to go the extra mile? Try these ideas:  
+- Add a **second heading (`<h2>`)** with your favorite STEAM topic.  
+- Insert an image of your favorite invention or a placeholder image:  
+  ```html
+  <img src="https://placekitten.com/250/250" alt="My Favorite Thing">
