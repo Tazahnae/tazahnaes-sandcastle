@@ -1,20 +1,80 @@
-# 🌐 Web Track – Level 3: CSS Styling 🎨
+# 🖼️ Web Track – Level 3: Adding Images & Links 🌐  
 
-🔥 You’re now a web *designer*! Let’s add **colors, fonts, and style** to make your page shine.
+Welcome back, **STEAM Coder!**  
+You’ve built and styled your “About Me” page — now let’s make it *interactive*!  
+In this level, you’ll learn how to add **images** and **links** so visitors can see and explore more of your world.
 
-> **Work in GitHub Codespaces** (Code → Open with Codespaces).  
-> Edit, then **Commit & Push**. Check **Actions** for ✅/❌.
+> 💡 **Work in GitHub Codespaces**  
+> Use the link from your **teacher or administrator** to open your Codespace.  
+> Edit your files → **Commit & Push** → then check your **Actions** tab for ✅ or ❌.  
+> 🧭 Need help? Open your **Quick Start Guide** for Git and Codespaces steps.
 
 ---
 
-## 🌟 Scenario  
-Your principal is going to show your page during morning announcements. It needs to look amazing—readable, colorful, and welcoming. Think of CSS as your art kit: you control the background color, font choices, and how your titles look. Your mission is to make your site feel like **you**—bright, bold, calm, sporty, cosmic… your call!
+## 🌟 Scenario: “Show & Share Your World”
+
+Your page has great information — now it’s time to make it **come alive**!  
+Your editor at *STEAM Stories* wants to feature your page in the **Digital Dreamers Gallery**, but before it can go live, they’ve asked you to include at least one image and a few links.  
+
+Think of this as giving your visitors **windows into your world** — a picture of what inspires you, and links that show what you care about or what you’ve learned. 🌻  
 
 ---
 
-## 📝 Task  
-👉 **Your task is to:**  
-1. Create a `style.css` file.  
-2. Change the **background color** of your page.  
-3. Style your `<h1>` (pick a new color + center it).  
-4. Link your CSS in your HTML.  
+## 📝 Task: Add an Image and a Link  
+
+👉 **Your mission:** Add one image and at least one working link to your webpage.  
+
+1. **Add an image**
+   - Open your file `web/level3/index.html`.  
+   - Inside the `<body>` section, below your paragraph, add:
+     ```html
+     <img src="https://placekitten.com/300/300" alt="My favorite animal" width="300" height="300">
+     ```
+   > 🧠 *Definition:* The **`<img>`** tag shows a picture.  
+   > - **`src`** = where the image lives online  
+   > - **`alt`** = short description for screen readers or if the image doesn’t load
+
+   🎯 *Try replacing the link* with a picture that matches your hobbies (ask your instructor for an approved image link).
+
+2. **Add a link**
+   - Under your image, add a link to something you find inspiring:
+     ```html
+     <p>
+       Learn more about space at 
+       <a href="https://www.nasa.gov" target="_blank">NASA .gov</a>!
+     </p>
+     ```
+   > 🧠 *Definition:* The **`<a>`** tag (anchor) creates a hyperlink.  
+   > - **`href`** = the website address  
+   > - **`target="_blank"`** opens the link in a new tab
+
+3. **Preview your page**
+   - Click the 🌐 *Preview* icon or right-click `index.html` → **Open Preview**  
+   - Make sure your image appears and your link opens correctly.
+
+4. **Save and Upload (Commit & Push)**
+   ```bash
+   git add .
+   git commit -m "level3: added image and link to about-me page"
+   git push
+
+	Go to your Actions tab → look for ✅ success!
+	•	❌ means something needs fixing — use your Quick Start Guide for help.
+
+🧠 Key TermsTerm               Meaning
+<img>                          Displays an image on a webpage.
+src                            Source — the web address of the image.
+alt                            Alternative text for accessibility.
+<a> (tag)                      Creates a clickable link.
+href                          Tells the browser where the link goes.
+Commit / Push / Actions       Save, upload, and verify your work on GitHub.
+
+🎉 Mission Complete!
+You’ve learned how to make your webpage interactive — people can now see what inspires you and click to explore!
+Take a screenshot and share it with #SteamForMeWeb to celebrate. 👏
+
+⸻
+
+🔜 Next Level
+
+In Level 4, you’ll add movement and interaction with JavaScript — making buttons and fun effects that respond to your visitors! 🚀
